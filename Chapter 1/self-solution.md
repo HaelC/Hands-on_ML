@@ -32,3 +32,29 @@ Online learning trains the system incrementally by feeding data instances sequen
 **10. What is out-of-core learning?**  
 Online learning algorithms used to train systems on huge datasets that cannot fit in one machine's main memory, which loads part of the data, runs a training step on that data, and repeats the process until it has run on all of the data.
 
+**11. What type of learning algorithm relies on a similarity measure to make predictions?**  
+Instance learning, which learns the examples by heart, then generalizes to new cases using a similarity measure.
+
+**12. What is the difference between a model parameter and a learning algorithm's hyperparameter?**  
+A hyperparameter is not affected by the learning algorithm itself; it must be set prior to training and remains constant during training. While the parameter(s) will be updated to find the optimal during the training process.
+
+**13. What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?**  
+Model-based learning algorithms build a model of the examples, then use that model to make predictions.
+
+**14. Can you name four of the main challenges in Machine Learning?**  
+Quantity and quality of data, complexity of algorithms(resulting in overfitting or underfitting), feature engineering.
+
+**15. If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?**  
+Overfitting.
+
+- To simplify the model by selecting one with fewer parameters
+- To gather more training data
+- To reduce the noise in the training data
+
+**16. What is a test set and why would you want to use it?**  
+
+**17. What is the purpose of a validation set?**  
+
+**18. What can go wrong if you tune hyperparameters using the test set?**  
+
+**19. What is cross-validation and why would you prefer it to a validation set?**  
