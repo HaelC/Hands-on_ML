@@ -39,8 +39,8 @@ Instance learning, which learns the examples by heart, then generalizes to new c
 A hyperparameter is not affected by the learning algorithm itself; it must be set prior to training and remains constant during training. While the parameter(s) will be updated to find the optimal during the training process.
 
 **13. What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?**  
-Model-based learning algorithms search for optimal parameters of the model so that the model would perform well on new instances. 
-The most common strategy is to minimizing the cost function by e.g., gradient descent.
+Model-based learning algorithms search for optimal parameters of the model so that the model would perform well on new instances.   
+The most common strategy is to minimizing the cost function by e.g., gradient descent.  
 To make predictions, we just feed the new instance's features into the model and use the parameters found by the learning algorithm.
 
 **14. Can you name four of the main challenges in Machine Learning?**  
@@ -53,8 +53,8 @@ Overfitting.
 - To gather more training data
 - To reduce the noise in the training data
 
-**16. What is a test set and why would you want to use it?**
-A test set is separated from training set, and it's used to test the model to evaluate the model and get an estimation of generalization error. 
+**16. What is a test set and why would you want to use it?**  
+A test set is separated from training set, and it's used to test the model to evaluate the model and get an estimation of generalization error.   
 To know how well the model will perform on instances it has never seen before.
 
 
@@ -65,5 +65,5 @@ Compare different models with various hyperparameters and select the best model.
 The model and heperparameters perform well on the test set, but the model is unlikely to perform as well on new data.
 
 **19. What is cross-validation and why would you prefer it to a validation set?**  
-The training set is split into complementary subsets, and each model is trained against a different combination of these subsets and validated against the remaining parts.
+The training set is split into complementary subsets, and each model is trained against a different combination of these subsets and validated against the remaining parts.  
 It helps to avoid wasting too much training data in validation sets.
